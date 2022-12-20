@@ -1,0 +1,462 @@
+.outer-div{
+    background-color: #E5E5E5;
+    padding: 0.5rem 0;
+}
+
+.inner-div{
+    width: 70%;
+    height: 20rem;
+    margin: 0 15%;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border-radius: 4px;
+    background-color: white;
+    filter: drop-shadow(0,2px,8px,rgba(0,0,0,0.1));  
+}
+
+.text{
+    height: 7rem;
+    margin-bottom: 1rem;
+}
+
+.bold-div{
+    height: 2.5rem;
+    color: rgba(52, 73, 94, 1);
+    margin-bottom: 0.5rem;
+    font-family: Helvetica Neue;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.desc-div{
+    height: 3.6rem;
+    font-family: Helvetica Neue;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.desc-div p{
+    height: 1rem;
+    margin: 0;
+    margin-bottom: 0.25rem;
+color: rgba(136, 148, 160, 1);
+
+}
+
+.desc-div span{
+color: rgba(102, 51, 43, 1);
+}
+
+.pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.qty{
+    /* width: 8.75rem; */
+    height: 2.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.qty span{
+  width: 2.75rem; 
+  padding: 0.5rem;
+  background-color: rgba(246, 248, 250, 1); 
+  border: 0.7px solid rgba(136, 148, 160, 1); 
+  text-align: center;
+  align-self: center;
+  margin-right: 0.25rem;
+  border-radius: 0.1rem;
+}
+
+.qty :nth-child(2){
+    width: 4.125rem;
+    background-color: white;
+
+}
+
+.coupon-applied{
+    width: 13.5rem;
+    height: 3rem;
+    color: rgba(23, 168, 95, 1);
+    font-family: Helvetica Neue;
+font-size: 16px;
+line-height: 24px;
+text-align: Center;
+}
+
+.price-mention{
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-mention p span{
+    font-family: Helvetica Neue;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: right;
+margin: 0;
+}
+
+.price-mention p{
+font-family: Helvetica Neue;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: right;
+margin: 0;
+padding-right: 0.25rem;
+}
+
+.coupon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.coupon-apply{
+    font-family: Helvetica Neue;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+color:rgba(102, 51, 43, 1);
+margin-left: 45%;
+}
+
+.coupon-apply img{
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.25rem;
+}
+
+.view-details{
+    font-family: Helvetica Neue;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0px;
+text-align: right;
+color:rgba(102, 51, 43, 1);
+
+}
+
+.but{
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem;
+
+}
+
+.but button{
+    width: 12rem;
+    color: rgba(102, 51, 43, 1);
+    border-radius: 0;
+    align-items: center;
+    line-height: 1rem;
+   
+}
+
+.but button img{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+
+.address-div{
+    height: 18.5rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #E5E5E5;
+    width: 70%;
+    margin: 0 15%;
+    margin-bottom: 0.5rem;
+
+}
+
+.delivery-order{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+    width: 50%;
+    margin-right: 0.5rem;
+}
+
+.delivery-date{
+    /* height: 9rem; */
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0,2px,8px,rgba(0,0,0,0.1)); 
+    background-color: white;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.delivery-date p{
+    font-family: Helvetica Neue;
+font-size: 12px;
+font-weight: 300;
+line-height: 17px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(52, 73, 94, 1);
+
+}
+
+.delivery-date input{
+    margin: 0.5rem 0;
+}
+
+.billing-summary{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 4px;
+}
+
+
+
+.bill-lines{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bill-lines p{
+    font-family: Helvetica Neue;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(52, 73, 94, 1);
+margin: 0.25rem 0;
+}
+
+.billing-summary p{
+    color: rgba(52, 73, 94, 1);
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 0.25rem;
+    
+}
+
+.line{
+    margin-top: 1rem;
+    height: 1px;
+    background: rgba(221, 221, 221, 1);
+
+}
+
+.apply-tax{
+margin-top: 0.75rem;
+
+}
+
+.apply-tax p{
+    font-family: Helvetica Neue;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(136, 148, 160, 1);
+margin-top: 0.5rem;
+}
+
+#apply-tax{
+    color: rgba(102, 51, 43, 1);
+    margin-right: 1rem;
+    width: 1rem;
+    height: 1rem;
+
+}
+
+.apply-tax div label{
+    font-family: Helvetica Neue;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(42, 41, 42, 1);
+
+}
+
+.billing-div{
+    height: 11rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 15%;
+    background-color: white;
+    margin-top: 0.5rem;
+    padding: 1rem;
+
+}
+
+.billing-shipping{
+height: 9rem;
+padding: 0 1rem;
+
+}
+
+
+.billing-to{
+    font-family: Helvetica Neue;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(52, 73, 94, 1);
+
+}
+
+.billing-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+height: 3.75rem;
+
+}
+
+.billing-bold-text{
+}
+
+.billing-bold-text-p2{
+    font-family: Helvetica Neue;
+font-size: 12px;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(42, 41, 42, 1);
+
+}
+
+.billing-bold-text-p{
+    font-family: Helvetica Neue;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(42, 41, 42, 1);
+
+}
+
+.change-button{
+    font-family: Helvetica Neue;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0px;
+text-align: center;
+color: rgba(102, 51, 43, 1);
+padding: 2rem 1rem;
+align-self: center;
+}
+
+.billing-contact{
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(42, 41, 42, 1);
+    margin-top: 1.5rem;
+}
+
+.horizontal-line{
+    margin: 2.5rem 0.5rem;
+    height: 5rem;
+width: 1px;
+border-radius: 0px;
+border: 1px solid rgba(151, 151, 151, 1)
+}
+
+
+.place-order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 15%;
+    height: 4rem;
+    background-color: white;
+    margin-top: 0.5rem;
+    border: 1px solid rgba(228, 228, 228, 1);
+    border-radius: 0.25rem;
+}
+
+.item-with-price{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.item-with-price :nth-child(1){
+    height: 0.75rem;
+    font-family: Helvetica Neue;
+font-size: 10px;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.place-order-price{
+    height: 1.5rem;
+    font-family: Helvetica Neue;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.addmore-placeorder-buttons{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    padding: 0.75rem;
+    align-items: baseline;
+}
+
+.addmore-placeorder-buttons button img{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+}

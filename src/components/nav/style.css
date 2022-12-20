@@ -1,0 +1,17 @@
+.title {
+    position: absolute;
+    left: 4.34%;
+    right: 89.86%;
+    top: 2.49%;
+    bottom: 95.6%;
+    background: #FFFFFF;
+}
+
+.d-fl {
+    display: flex;
+    justify-content: space-between;
+}
+
+Link{
+    text-decoration: none;
+}

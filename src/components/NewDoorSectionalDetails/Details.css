@@ -1,0 +1,33 @@
+.initial-progress-bar{
+    height: 0.5rem;
+border-radius: 1rem; 
+background-color: rgba(198,198,198,1);
+
+}
+
+.final-progress-bar{
+    height: 0.5rem;
+border-radius: 1rem; 
+background-color: green;
+
+}
+
+.progress-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 0.5rem;
+border-radius: 1rem;
+}
+
+.bar1{
+    height: 0.5rem;
+    width: 50%;
+    border-radius: 1rem 0 0 1rem;
+    background-color: green;
+}
+.bar2{
+    height: 0.5rem;
+    width: 50%;
+    background-color: rgba(198,198,198,1);
+}

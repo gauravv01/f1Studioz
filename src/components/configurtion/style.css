@@ -1,0 +1,13 @@
+.titles {
+    width: fit-content;
+    /* font: size 20px; */
+    line-height: 26px;
+    color: '#2A292A';
+}
+
+.crd {
+    box-shadow: 0px 2px 8px 0px #0000001A !important;
+    width: 75%;
+    margin-top: 2rem;
+    max-height: 6rem;
+}

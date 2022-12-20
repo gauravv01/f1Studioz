@@ -1,0 +1,7 @@
+.cart:active{
+    border-bottom: 1px solid yellow;
+}
+
+.favorites:active{
+    border-bottom: 1px solid yellow;
+}
