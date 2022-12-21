@@ -2,13 +2,14 @@ import Table from 'react-bootstrap/Table';
 import { useSelector } from 'react-redux';
 import AddForm from './AddForm';
 import constants from '../../Data/Constants/Constants';
+import './FormData.css';
 
 function FormData() {
 const data=useSelector(state=>state.ColectFormDataSlice.dataArray)
 
 return (
-    <div style={{backgroundColor:'#E5E5E5', padding:'1rem 1rem'}}>
-    <Table striped bordered hover style={{backgroundColor:'white',marginRight:'1rem',textAlign:'center' , borderRadius:'8px' }}>
+    <div className='table-div'>
+    <Table striped bordered hover size='xxs' className='table-data' >
       <thead>
         <tr style={{backgroundColor:'white'}}>
           <th>{constants.ASSEMBLY_TYPE}</th>

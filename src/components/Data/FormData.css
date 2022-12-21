@@ -1,0 +1,17 @@
+.table-data{
+    background-color:'white';
+    margin-right:'1rem';
+    text-align:'center' ;
+     border-radius:'8px' 
+}
+
+.table-div{
+    background-color:'#E5E5E5';
+     padding:'1rem 1rem';
+}
+
+@media screen and (max-width: 480px) {
+    .table-div {
+        width: 70%;
+          }
+  }
