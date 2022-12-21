@@ -1,20 +1,26 @@
-p{
-    margin: 0;
+.filterbar-main{
+    display:flex;
+    flex-direction:row;
+    background-color:#E5E5E5 ;
+     height:3rem;
+     align-items:center;
+     justify-content:space-between;
+     border-bottom:1px solid rgba(219,219,220,1)
 }
 
-.filter-bar{
-    font-family: HelveticaNeue;
-font-size: 14px;
-line-height: 22px;
-letter-spacing: 0px;
-text-align: center;
-color: rgba(102, 51, 43, 1);
-
+.filterbar-lines{
+    display:flex;
+    flex-direction:row;
+    margin-left:2rem
 }
 
-.filter-bar img{
-    width: 0.75rem;
-    height: 0.75rem;
-    margin-right: 0.5rem;
+.active-cart{
+    color: rgba(52, 73, 94, 1) ;
+    margin-right:2rem
 }
+
+.favorite-cart{
+    color:rgba(136, 148, 160, 1)
+}
+
 

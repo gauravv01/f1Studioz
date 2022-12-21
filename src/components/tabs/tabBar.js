@@ -6,14 +6,13 @@ import './tabBar.css';
 function TabBar({onClick}) {
 
     return (
-        // <Navbar bg="dark" variant="dark">
-        <div style={{ backgroundColor: '#34495E', display: 'flex', flexDirection: 'row', justifyContent: 'center',height:'2rem',alignItems:'center'}}>
+        <div className='navbar' >
             <Nav onClick={onClick} >
                 <Nav.Item>
-                    <p className='cart' style={{ color: '#fff', fontWeight: 'bold' , marginRight:'1rem' }}>{constants.CART}</p>
+                    <p className='cart' >{constants.CART}</p>
                 </Nav.Item>
                 <Nav.Item>
-                    <p className='favorites' style={{ color: '#fff' }}>{constants.FAVORITES}</p>
+                    <p className='favorites' >{constants.FAVORITES}</p>
                 </Nav.Item>
             </Nav>
         </div>

@@ -24,6 +24,9 @@ state.formFilled=true;
     state.formWillEdit=true;
     state.formFilled=false;
   },
+  AddMoreForm(state){
+    state.formFilled=false;
+  },
   DeleteItem(state,action){
     const id=action.payload;
     let updatedItems;

@@ -13,18 +13,20 @@ function Config({page}) {
             return <div key={itm.title} style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
                 <Card className='crd'>
                     <Card.Body>
+                    <Link to={itm.title==='Configure your door from scratch'?page:null} style={{textDecoration:'none'}}>  
                         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
                             <div style={{ display: 'flex', flexDirection: 'column', width: '70%', marginTop: '0.3rem' }}>
                                 <b className='titles'>{itm.title}</b>
                                 <p style={{ color: '#8894A0' }}>{itm.desc}</p>
                             </div>
-                            <Link to={itm.title==='Configure your door from scratch'?page:null}>  
+                        
                               <div style={{ marginTop: '1rem' }}>
                                 <img src={icn} alt='icn' />
                             </div>
-                            </Link>
+                            
 
                         </div>
+                        </Link>
                     </Card.Body>
                 </Card>
             </div>

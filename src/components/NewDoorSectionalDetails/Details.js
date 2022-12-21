@@ -147,7 +147,7 @@ const ConfirmData=()=>{
                 style={{ width: "60%" }} name="Assembly_type"
                 onChange={handlechange}
               >
-                <option >{formEdit ? reqData.Assembly_type :'Complete Door'}</option>
+                <option >{formEdit ? reqData.Assembly_type :''}</option>
                 <option  value="One">
                   One
                 </option>
@@ -211,7 +211,7 @@ const ConfirmData=()=>{
                       style={{ marginRight: "1rem" }}
                       onChange={handlechange} name="Width"
                     >
-                      <option>{formEdit ? reqData.Width : '8 ft.'}</option>
+                      <option>{formEdit ? reqData.Width : ''}</option>
                       <option >1 ft.</option>
                       <option >2 ft.</option>
                       <option >3 ft.</option>
@@ -222,7 +222,7 @@ const ConfirmData=()=>{
                       <option >8 ft.</option>
                     </Form.Select>
                     <Form.Select aria-label="Default select example">
-                      <option>2 in.</option>
+                      <option></option>
                       <option value="1">1 in.</option>
                       <option value="2">2 in.</option>
                       <option value="3">3 in.</option>
@@ -263,7 +263,7 @@ const ConfirmData=()=>{
                       style={{ marginRight: "1rem" }}
                       onChange={handlechange} name="Height"
                     >
-                      <option>{formEdit ? reqData.Height : '8 ft.'}</option>
+                      <option>{formEdit ? reqData.Height : ''}</option>
                       <option >1 ft.</option>
                       <option >2 ft.</option>
                       <option >3 ft.</option>
@@ -274,7 +274,7 @@ const ConfirmData=()=>{
                       <option >8 ft.</option>
                     </Form.Select>
                     <Form.Select aria-label="Default select example">
-                      <option>2 in.</option>
+                      <option></option>
                       <option value="1">1 in.</option>
                       <option value="2">2 in.</option>
                       <option value="3">3 in.</option>
@@ -308,7 +308,7 @@ const ConfirmData=()=>{
                 style={{ width: "60%" }}
                 onChange={handlechange} name="WindCode"
               >
-                <option>{formEdit ? reqData.WindCode : 'WindCode W1'}</option>
+                <option>{formEdit ? reqData.WindCode : ''}</option>
                 <option  >One</option>
                 <option >Two</option>
                 <option >Three</option>
@@ -338,7 +338,7 @@ const ConfirmData=()=>{
                 style={{ width: "60%" }}
                 onChange={handlechange} name="Design"
               >
-                <option>{formEdit ? reqData.Design : 'CC'}</option>
+                <option>{formEdit ? reqData.Design : ''}</option>
                 <option >One</option>
                 <option >Two</option>
                 <option >Three</option>
@@ -368,7 +368,7 @@ const ConfirmData=()=>{
                 style={{ width: "60%" }}
                 onChange={handlechange} name="Color"
               >
-                <option>{formEdit ? reqData.Color : 'Dark Finish'}</option>
+                <option>{formEdit ? reqData.Color : ''}</option>
                 <option >One</option>
                 <option >Two</option>
                 <option >Three</option>
@@ -422,7 +422,7 @@ const ConfirmData=()=>{
                 style={{ width: "60%" }} onChange={handlechange} name="Glass_Type"
                 
               >
-                <option>{formEdit ? reqData.Glass_Type : 'Glass Type'}</option>
+                <option>{formEdit ? reqData.Glass_Type : ''}</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -453,7 +453,7 @@ const ConfirmData=()=>{
                 style={{ width: "60%" }} onChange={handlechange} name="Glazed"
                 
               >
-                <option>{formEdit ? reqData.Glazed : 'Glazed'}</option>
+                <option>{formEdit ? reqData.Glazed : ''}</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -483,7 +483,7 @@ const ConfirmData=()=>{
                 style={{ width: "60%" }} onChange={handlechange} name="Framing"
                 
               >
-                <option>{formEdit ? reqData.Framing : 'Framing'}</option>
+                <option>{formEdit ? reqData.Framing : ''}</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -535,7 +535,7 @@ const ConfirmData=()=>{
                 style={{ width: "60%" }}  disabled
                 
               >
-                <option>Residential Door</option>
+                <option></option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -565,7 +565,7 @@ const ConfirmData=()=>{
                 style={{ width: "60%" }}  disabled
                 
               >
-                <option>Residential Door</option>
+                <option></option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -595,7 +595,7 @@ const ConfirmData=()=>{
                 style={{ width: "60%" }}  disabled
                 
               >
-                <option>Residential Door</option>
+                <option></option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -625,7 +625,7 @@ const ConfirmData=()=>{
                 style={{ width: "60%" }}  disabled
                 
               >
-                <option>Residential Door</option>
+                <option></option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -655,7 +655,7 @@ const ConfirmData=()=>{
                 style={{ width: "60%" }}  disabled
                 
               >
-                <option>Residential Door</option>
+                <option></option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -707,7 +707,7 @@ const ConfirmData=()=>{
                 style={{ width: "60%" }}  disabled
                 
               >
-                <option>Residential Door</option>
+                <option></option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -738,7 +738,7 @@ const ConfirmData=()=>{
                 style={{ width: "60%" }}  disabled
                 
               >
-                <option>Residential Door</option>
+                <option></option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -768,7 +768,7 @@ const ConfirmData=()=>{
                 style={{ width: "60%" }}  disabled
                 
               >
-                <option>Residential Door</option>
+                <option></option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -798,7 +798,7 @@ const ConfirmData=()=>{
                 style={{ width: "60%" }}  disabled
                 
               >
-                <option>Residential Door</option>
+                <option></option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>

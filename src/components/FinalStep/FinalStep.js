@@ -26,6 +26,7 @@ const deleteItem=()=>{
 navigate('/');
 }
 const AddMore=()=>{
+    dispatch(FormActions.AddMoreForm());
     navigate('/Config');
 }
   return (
